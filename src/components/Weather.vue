@@ -4,9 +4,9 @@
       <template #cell(weather)="data">
         <div v-for="(weatherData, index) in data.item.weather" :key="index">
           <img
-              :src="`http://openweathermap.org/img/wn/${weatherData.icon}.png`"
-            />
-            <strong>{{ weatherData.description }}</strong>
+            :src="`http://openweathermap.org/img/wn/${weatherData.icon}.png`"
+          />
+          <strong>{{ weatherData.description }}</strong>
         </div>
       </template>
     </b-table>

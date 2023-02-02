@@ -69,12 +69,11 @@ export default {
       return isNil(this.resultData);
     },
     weatherData() {
-      if(!this.isResultEmpty)
-      {
-        console.log(this.resultData.weather[0])
+      if (!this.isResultEmpty) {
+        console.log(this.resultData.weather[0]);
       }
 
-      return null
+      return null;
     }
   },
   methods: {
