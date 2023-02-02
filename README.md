@@ -20,5 +20,8 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Answer to question 2
+
+``
+This approach is better because it is more scallable, separating the UI from the API also creates less conflict when more than one dev is developing for a new feature.
+``
